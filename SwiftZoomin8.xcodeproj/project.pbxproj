@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */; };
+		D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0DC271CFCD400CAAE76 /* ContentView.swift */; };
+		D686D0DF271CFCD500CAAE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D686D0DE271CFCD500CAAE76 /* Assets.xcassets */; };
+		D686D0E2271CFCD500CAAE76 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D686D0E1271CFCD500CAAE76 /* Preview Assets.xcassets */; };
+		D686D0EC271CFCD600CAAE76 /* SwiftZoomin8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0EB271CFCD600CAAE76 /* SwiftZoomin8Tests.swift */; };
+		D686D0F6271CFCD600CAAE76 /* SwiftZoomin8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0F5271CFCD600CAAE76 /* SwiftZoomin8UITests.swift */; };
+		D686D0F8271CFCD600CAAE76 /* SwiftZoomin8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0F7271CFCD600CAAE76 /* SwiftZoomin8UITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D686D0E8271CFCD600CAAE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D686D0CF271CFCD400CAAE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D686D0D6271CFCD400CAAE76;
+			remoteInfo = SwiftZoomin8;
+		};
+		D686D0F2271CFCD600CAAE76 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D686D0CF271CFCD400CAAE76 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D686D0D6271CFCD400CAAE76;
+			remoteInfo = SwiftZoomin8;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D686D0D7271CFCD400CAAE76 /* SwiftZoomin8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftZoomin8.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZoomin8App.swift; sourceTree = "<group>"; };
+		D686D0DC271CFCD400CAAE76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D686D0DE271CFCD500CAAE76 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D686D0E1271CFCD500CAAE76 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D686D0E7271CFCD500CAAE76 /* SwiftZoomin8Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZoomin8Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D686D0EB271CFCD600CAAE76 /* SwiftZoomin8Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZoomin8Tests.swift; sourceTree = "<group>"; };
+		D686D0F1271CFCD600CAAE76 /* SwiftZoomin8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftZoomin8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D686D0F5271CFCD600CAAE76 /* SwiftZoomin8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZoomin8UITests.swift; sourceTree = "<group>"; };
+		D686D0F7271CFCD600CAAE76 /* SwiftZoomin8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZoomin8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D686D0D4271CFCD400CAAE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D686D0E4271CFCD500CAAE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D686D0EE271CFCD600CAAE76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D686D0CE271CFCD400CAAE76 = {
+			isa = PBXGroup;
+			children = (
+				D686D0D9271CFCD400CAAE76 /* SwiftZoomin8 */,
+				D686D0EA271CFCD600CAAE76 /* SwiftZoomin8Tests */,
+				D686D0F4271CFCD600CAAE76 /* SwiftZoomin8UITests */,
+				D686D0D8271CFCD400CAAE76 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D686D0D8271CFCD400CAAE76 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D686D0D7271CFCD400CAAE76 /* SwiftZoomin8.app */,
+				D686D0E7271CFCD500CAAE76 /* SwiftZoomin8Tests.xctest */,
+				D686D0F1271CFCD600CAAE76 /* SwiftZoomin8UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D686D0D9271CFCD400CAAE76 /* SwiftZoomin8 */ = {
+			isa = PBXGroup;
+			children = (
+				D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */,
+				D686D0DC271CFCD400CAAE76 /* ContentView.swift */,
+				D686D0DE271CFCD500CAAE76 /* Assets.xcassets */,
+				D686D0E0271CFCD500CAAE76 /* Preview Content */,
+			);
+			path = SwiftZoomin8;
+			sourceTree = "<group>";
+		};
+		D686D0E0271CFCD500CAAE76 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D686D0E1271CFCD500CAAE76 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D686D0EA271CFCD600CAAE76 /* SwiftZoomin8Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D686D0EB271CFCD600CAAE76 /* SwiftZoomin8Tests.swift */,
+			);
+			path = SwiftZoomin8Tests;
+			sourceTree = "<group>";
+		};
+		D686D0F4271CFCD600CAAE76 /* SwiftZoomin8UITests */ = {
+			isa = PBXGroup;
+			children = (
+				D686D0F5271CFCD600CAAE76 /* SwiftZoomin8UITests.swift */,
+				D686D0F7271CFCD600CAAE76 /* SwiftZoomin8UITestsLaunchTests.swift */,
+			);
+			path = SwiftZoomin8UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D686D0D6271CFCD400CAAE76 /* SwiftZoomin8 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D686D0FB271CFCD600CAAE76 /* Build configuration list for PBXNativeTarget "SwiftZoomin8" */;
+			buildPhases = (
+				D686D0D3271CFCD400CAAE76 /* Sources */,
+				D686D0D4271CFCD400CAAE76 /* Frameworks */,
+				D686D0D5271CFCD400CAAE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftZoomin8;
+			productName = SwiftZoomin8;
+			productReference = D686D0D7271CFCD400CAAE76 /* SwiftZoomin8.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D686D0E6271CFCD500CAAE76 /* SwiftZoomin8Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D686D0FE271CFCD600CAAE76 /* Build configuration list for PBXNativeTarget "SwiftZoomin8Tests" */;
+			buildPhases = (
+				D686D0E3271CFCD500CAAE76 /* Sources */,
+				D686D0E4271CFCD500CAAE76 /* Frameworks */,
+				D686D0E5271CFCD500CAAE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D686D0E9271CFCD600CAAE76 /* PBXTargetDependency */,
+			);
+			name = SwiftZoomin8Tests;
+			productName = SwiftZoomin8Tests;
+			productReference = D686D0E7271CFCD500CAAE76 /* SwiftZoomin8Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D686D0F0271CFCD600CAAE76 /* SwiftZoomin8UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D686D101271CFCD600CAAE76 /* Build configuration list for PBXNativeTarget "SwiftZoomin8UITests" */;
+			buildPhases = (
+				D686D0ED271CFCD600CAAE76 /* Sources */,
+				D686D0EE271CFCD600CAAE76 /* Frameworks */,
+				D686D0EF271CFCD600CAAE76 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D686D0F3271CFCD600CAAE76 /* PBXTargetDependency */,
+			);
+			name = SwiftZoomin8UITests;
+			productName = SwiftZoomin8UITests;
+			productReference = D686D0F1271CFCD600CAAE76 /* SwiftZoomin8UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D686D0CF271CFCD400CAAE76 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					D686D0D6271CFCD400CAAE76 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					D686D0E6271CFCD500CAAE76 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D686D0D6271CFCD400CAAE76;
+					};
+					D686D0F0271CFCD600CAAE76 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = D686D0D6271CFCD400CAAE76;
+					};
+				};
+			};
+			buildConfigurationList = D686D0D2271CFCD400CAAE76 /* Build configuration list for PBXProject "SwiftZoomin8" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D686D0CE271CFCD400CAAE76;
+			productRefGroup = D686D0D8271CFCD400CAAE76 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D686D0D6271CFCD400CAAE76 /* SwiftZoomin8 */,
+				D686D0E6271CFCD500CAAE76 /* SwiftZoomin8Tests */,
+				D686D0F0271CFCD600CAAE76 /* SwiftZoomin8UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D686D0D5271CFCD400CAAE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D686D0E2271CFCD500CAAE76 /* Preview Assets.xcassets in Resources */,
+				D686D0DF271CFCD500CAAE76 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D686D0E5271CFCD500CAAE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D686D0EF271CFCD600CAAE76 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D686D0D3271CFCD400CAAE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,
+				D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D686D0E3271CFCD500CAAE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D686D0EC271CFCD600CAAE76 /* SwiftZoomin8Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D686D0ED271CFCD600CAAE76 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D686D0F6271CFCD600CAAE76 /* SwiftZoomin8UITests.swift in Sources */,
+				D686D0F8271CFCD600CAAE76 /* SwiftZoomin8UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D686D0E9271CFCD600CAAE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D686D0D6271CFCD400CAAE76 /* SwiftZoomin8 */;
+			targetProxy = D686D0E8271CFCD600CAAE76 /* PBXContainerItemProxy */;
+		};
+		D686D0F3271CFCD600CAAE76 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D686D0D6271CFCD400CAAE76 /* SwiftZoomin8 */;
+			targetProxy = D686D0F2271CFCD600CAAE76 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		D686D0F9271CFCD600CAAE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D686D0FA271CFCD600CAAE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D686D0FC271CFCD600CAAE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftZoomin8/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D686D0FD271CFCD600CAAE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftZoomin8/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D686D0FF271CFCD600CAAE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftZoomin8.app/SwiftZoomin8";
+			};
+			name = Debug;
+		};
+		D686D100271CFCD600CAAE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftZoomin8.app/SwiftZoomin8";
+			};
+			name = Release;
+		};
+		D686D102271CFCD600CAAE76 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftZoomin8;
+			};
+			name = Debug;
+		};
+		D686D103271CFCD600CAAE76 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SwiftZoomin8;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D686D0D2271CFCD400CAAE76 /* Build configuration list for PBXProject "SwiftZoomin8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D686D0F9271CFCD600CAAE76 /* Debug */,
+				D686D0FA271CFCD600CAAE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D686D0FB271CFCD600CAAE76 /* Build configuration list for PBXNativeTarget "SwiftZoomin8" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D686D0FC271CFCD600CAAE76 /* Debug */,
+				D686D0FD271CFCD600CAAE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D686D0FE271CFCD600CAAE76 /* Build configuration list for PBXNativeTarget "SwiftZoomin8Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D686D0FF271CFCD600CAAE76 /* Debug */,
+				D686D100271CFCD600CAAE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D686D101271CFCD600CAAE76 /* Build configuration list for PBXNativeTarget "SwiftZoomin8UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D686D102271CFCD600CAAE76 /* Debug */,
+				D686D103271CFCD600CAAE76 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D686D0CF271CFCD400CAAE76 /* Project object */;
+}
