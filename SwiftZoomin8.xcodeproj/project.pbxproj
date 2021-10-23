@@ -18,6 +18,9 @@
 		D6AF3E362722D50A00B8D02D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E352722D50A00B8D02D /* User.swift */; };
 		D6AF3E382722D7DB00B8D02D /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E372722D7DB00B8D02D /* UserView.swift */; };
 		D6AF3E3A2722D83B00B8D02D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E392722D83B00B8D02D /* UserViewController.swift */; };
+		D6AF3E402723A9AB00B8D02D /* Counter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E3F2723A9AB00B8D02D /* Counter1.swift */; };
+		D6AF3E422723B19700B8D02D /* Counter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E412723B19700B8D02D /* Counter2.swift */; };
+		D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E432723B1A200B8D02D /* Counter3.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +55,9 @@
 		D6AF3E352722D50A00B8D02D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D6AF3E372722D7DB00B8D02D /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D6AF3E392722D83B00B8D02D /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
+		D6AF3E3F2723A9AB00B8D02D /* Counter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter1.swift; sourceTree = "<group>"; };
+		D6AF3E412723B19700B8D02D /* Counter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter2.swift; sourceTree = "<group>"; };
+		D6AF3E432723B1A200B8D02D /* Counter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter3.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,9 @@
 			children = (
 				D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */,
 				D686D0DC271CFCD400CAAE76 /* ContentView.swift */,
+				D6AF3E3F2723A9AB00B8D02D /* Counter1.swift */,
+				D6AF3E412723B19700B8D02D /* Counter2.swift */,
+				D6AF3E432723B1A200B8D02D /* Counter3.swift */,
 				D6AF3E332722D0EE00B8D02D /* Download.swift */,
 				D6AF3E352722D50A00B8D02D /* User.swift */,
 				D6AF3E372722D7DB00B8D02D /* UserView.swift */,
@@ -272,9 +281,12 @@
 				D6AF3E362722D50A00B8D02D /* User.swift in Sources */,
 				D6AF3E3A2722D83B00B8D02D /* UserViewController.swift in Sources */,
 				D6AF3E382722D7DB00B8D02D /* UserView.swift in Sources */,
+				D6AF3E422723B19700B8D02D /* Counter2.swift in Sources */,
 				D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */,
+				D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */,
 				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,
 				D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */,
+				D6AF3E402723A9AB00B8D02D /* Counter1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,6 +459,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-concurrency";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -475,6 +488,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				OTHER_SWIFT_FLAGS = "-Xfrontend -warn-concurrency";
 				PRODUCT_BUNDLE_IDENTIFIER = jp.co.qoncept.SyncVideoPlayerSample.SwiftZoomin8;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;

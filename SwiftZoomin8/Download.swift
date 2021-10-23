@@ -1,10 +1,7 @@
 import Foundation
 
 struct ResponseError: Error {
-    var response: HTTPURLResponse
-    init(_ response: HTTPURLResponse) {
-        self.response = response
-    }
+    var statusCode: Int
 }
 
 func downloadData(from url: URL, completion: @escaping (Result<Data, Error>) -> Void) {
@@ -15,7 +12,7 @@ func downloadData(from url: URL, completion: @escaping (Result<Data, Error>) -> 
         }
         if let response = response as? HTTPURLResponse {
             guard response.statusCode == 200 else {
-                completion(.failure(ResponseError(response)))
+                completion(.failure(ResponseError(statusCode: response.statusCode)))
                 return
             }
         }
