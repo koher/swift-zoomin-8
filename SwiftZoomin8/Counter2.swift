@@ -7,9 +7,10 @@ final class Counter {
     
     func increment(completion: @escaping (Int) -> Void) {
         queue.async { [self] in
-            count += 1
+            let count = self.count
             Thread.sleep(forTimeInterval: 1.0)
-            completion(count)
+            self.count = count + 1
+            completion(self.count)
         }
     }
 }

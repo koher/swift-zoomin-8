@@ -4,9 +4,10 @@ private
 final class Counter {
     private var count: Int = 0
     func increment() -> Int {
-        count += 1
+        let count = self.count
         Thread.sleep(forTimeInterval: 1.0)
-        return count
+        self.count = count + 1
+        return self.count
     }
 }
 
