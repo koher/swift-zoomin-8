@@ -25,6 +25,11 @@ struct ContentView: View {
                 } label: {
                     Text("Counter (Actor)")
                 }
+                Button {
+                    bankAccountMain()
+                } label: {
+                    Text("Bank Account")
+                }
             }
         }
         .navigationTitle("Swift Zoomin' #8")

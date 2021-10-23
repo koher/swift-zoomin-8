@@ -21,6 +21,7 @@
 		D6AF3E402723A9AB00B8D02D /* Counter1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E3F2723A9AB00B8D02D /* Counter1.swift */; };
 		D6AF3E422723B19700B8D02D /* Counter2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E412723B19700B8D02D /* Counter2.swift */; };
 		D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E432723B1A200B8D02D /* Counter3.swift */; };
+		D6AF3E462723B8C000B8D02D /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E452723B8C000B8D02D /* BankAccount.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		D6AF3E3F2723A9AB00B8D02D /* Counter1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter1.swift; sourceTree = "<group>"; };
 		D6AF3E412723B19700B8D02D /* Counter2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter2.swift; sourceTree = "<group>"; };
 		D6AF3E432723B1A200B8D02D /* Counter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter3.swift; sourceTree = "<group>"; };
+		D6AF3E452723B8C000B8D02D /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */,
+				D6AF3E452723B8C000B8D02D /* BankAccount.swift */,
 				D686D0DC271CFCD400CAAE76 /* ContentView.swift */,
 				D6AF3E3F2723A9AB00B8D02D /* Counter1.swift */,
 				D6AF3E412723B19700B8D02D /* Counter2.swift */,
@@ -285,6 +288,7 @@
 				D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */,
 				D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */,
 				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,
+				D6AF3E462723B8C000B8D02D /* BankAccount.swift in Sources */,
 				D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */,
 				D6AF3E402723A9AB00B8D02D /* Counter1.swift in Sources */,
 			);
