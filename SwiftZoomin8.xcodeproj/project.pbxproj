@@ -23,7 +23,6 @@
 		D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E432723B1A200B8D02D /* Counter3.swift */; };
 		D6AF3E462723B8C000B8D02D /* BankAccount.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E452723B8C000B8D02D /* BankAccount.swift */; };
 		D6AF3E48272400A100B8D02D /* UserViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E47272400A100B8D02D /* UserViewState.swift */; };
-		D6AF3E4A272405B400B8D02D /* UserViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E49272405B400B8D02D /* UserViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,7 +62,6 @@
 		D6AF3E432723B1A200B8D02D /* Counter3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter3.swift; sourceTree = "<group>"; };
 		D6AF3E452723B8C000B8D02D /* BankAccount.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankAccount.swift; sourceTree = "<group>"; };
 		D6AF3E47272400A100B8D02D /* UserViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewState.swift; sourceTree = "<group>"; };
-		D6AF3E49272405B400B8D02D /* UserViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 				D6AF3E332722D0EE00B8D02D /* Download.swift */,
 				D6AF3E352722D50A00B8D02D /* User.swift */,
 				D6AF3E392722D83B00B8D02D /* UserViewController.swift */,
-				D6AF3E49272405B400B8D02D /* UserViewController2.swift */,
 				D6AF3E47272400A100B8D02D /* UserViewState.swift */,
 				D686D0DE271CFCD500CAAE76 /* Assets.xcassets */,
 				D686D0E0271CFCD500CAAE76 /* Preview Content */,
@@ -291,7 +288,6 @@
 				D6AF3E3A2722D83B00B8D02D /* UserViewController.swift in Sources */,
 				D6AF3E382722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift in Sources */,
 				D6AF3E422723B19700B8D02D /* Counter2.swift in Sources */,
-				D6AF3E4A272405B400B8D02D /* UserViewController2.swift in Sources */,
 				D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */,
 				D6AF3E442723B1A200B8D02D /* Counter3.swift in Sources */,
 				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,
