@@ -42,47 +42,33 @@ final class UserViewController: UIViewController {
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         
-        // User の JSON の取得
-        let url: URL = .init(string: "https://koherent.org/fake-service/api/user?id=\(id)")!
-        downloadData(from: url) { [self] userData in
-            // メインスレッドで実行
-            DispatchQueue.main.async {
-                do {
-                    let data: Data = try userData.get()
-                    
-                    // JSON のデコード
-                    let user: User = try JSONDecoder().decode(User.self, from: data)
-                    
-                    // View への反映
-                    title = user.name
-                    nameLabel.text = user.name
-
-                    // アイコン画像の取得
-                    downloadData(from: user.iconURL) { iconData in
-                        // メインスレッドで実行
-                        DispatchQueue.main.async {
-                            do {
-                                let iconData: Data = try iconData.get()
-                                
-                                // Data を UIImage に変換
-                                guard let iconImage: UIImage = .init(data: iconData) else {
-                                    // エラーハンドリング
-                                    print("The icon image at \(user.iconURL) has an illegal format.")
-                                    return
-                                }
-                                
-                                // View への反映
-                                iconImageView.image = iconImage
-                            } catch {
-                                // エラーハンドリング
-                                print(error)
-                            }
-                        }
-                    }
-                } catch {
+        Task {
+            do {
+                // User の JSON の取得
+                let url: URL = .init(string: "https://koherent.org/fake-service/api/user?id=\(id)")!
+                let data = try await downloadData(from: url)
+                
+                // JSON のデコード
+                let user: User = try JSONDecoder().decode(User.self, from: data)
+                
+                // View への反映
+                title = user.name
+                nameLabel.text = user.name
+                
+                // アイコン画像の取得
+                let iconData = try await downloadData(from: user.iconURL)
+                // Data を UIImage に変換
+                guard let iconImage: UIImage = .init(data: iconData) else {
                     // エラーハンドリング
-                    print(error)
+                    print("The icon image at \(user.iconURL) has an illegal format.")
+                    return
                 }
+                
+                // View への反映
+                iconImageView.image = iconImage
+            } catch {
+                // エラーハンドリング
+                print(error)
             }
         }
     }
