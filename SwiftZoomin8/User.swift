@@ -1,6 +1,6 @@
 import Foundation
 
-struct User: Codable {
+struct User: Codable, Sendable {
     let id: ID
     var name: String
     var iconURL: URL
@@ -16,3 +16,5 @@ struct User: Codable {
         var description: String { rawValue.description }
     }
 }
+
+extension URL: @unchecked Sendable {}
