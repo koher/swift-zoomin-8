@@ -6,10 +6,7 @@ struct ContentView: View {
         NavigationView {
             List {
                 NavigationLink {
-                    AnyUIViewControllerRepresentable(
-                        make: { _ in UserViewController(id: 1234) },
-                        update: { _, _ in }
-                    )
+                    UserView(id: 1234)
                 } label: {
                     Text("User View")
                 }

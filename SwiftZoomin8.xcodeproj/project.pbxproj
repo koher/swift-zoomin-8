@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D603B9012767EB4F009DF81A /* UserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D603B9002767EB4F009DF81A /* UserView.swift */; };
 		D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */; };
 		D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D686D0DC271CFCD400CAAE76 /* ContentView.swift */; };
 		D686D0DF271CFCD500CAAE76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D686D0DE271CFCD500CAAE76 /* Assets.xcassets */; };
@@ -17,7 +18,6 @@
 		D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E332722D0EE00B8D02D /* Download.swift */; };
 		D6AF3E362722D50A00B8D02D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E352722D50A00B8D02D /* User.swift */; };
 		D6AF3E382722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E372722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift */; };
-		D6AF3E3A2722D83B00B8D02D /* UserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E392722D83B00B8D02D /* UserViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D603B9002767EB4F009DF81A /* UserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserView.swift; sourceTree = "<group>"; };
 		D686D0D7271CFCD400CAAE76 /* SwiftZoomin8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftZoomin8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D686D0DA271CFCD400CAAE76 /* SwiftZoomin8App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftZoomin8App.swift; sourceTree = "<group>"; };
 		D686D0DC271CFCD400CAAE76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -51,7 +52,6 @@
 		D6AF3E332722D0EE00B8D02D /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		D6AF3E352722D50A00B8D02D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D6AF3E372722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIViewControllerRepresentable.swift; sourceTree = "<group>"; };
-		D6AF3E392722D83B00B8D02D /* UserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,7 +107,7 @@
 				D686D0DC271CFCD400CAAE76 /* ContentView.swift */,
 				D6AF3E332722D0EE00B8D02D /* Download.swift */,
 				D6AF3E352722D50A00B8D02D /* User.swift */,
-				D6AF3E392722D83B00B8D02D /* UserViewController.swift */,
+				D603B9002767EB4F009DF81A /* UserView.swift */,
 				D686D0DE271CFCD500CAAE76 /* Assets.xcassets */,
 				D686D0E0271CFCD500CAAE76 /* Preview Content */,
 			);
@@ -270,11 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AF3E362722D50A00B8D02D /* User.swift in Sources */,
-				D6AF3E3A2722D83B00B8D02D /* UserViewController.swift in Sources */,
 				D6AF3E382722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift in Sources */,
 				D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */,
 				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,
 				D686D0DB271CFCD400CAAE76 /* SwiftZoomin8App.swift in Sources */,
+				D603B9012767EB4F009DF81A /* UserView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
