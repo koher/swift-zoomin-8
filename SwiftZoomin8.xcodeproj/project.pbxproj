@@ -52,6 +52,7 @@
 		D6AF3E332722D0EE00B8D02D /* Download.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Download.swift; sourceTree = "<group>"; };
 		D6AF3E352722D50A00B8D02D /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D6AF3E372722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIViewControllerRepresentable.swift; sourceTree = "<group>"; };
+		D6B3BEC4276BBA43009AC3FC /* Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Slides.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +83,7 @@
 		D686D0CE271CFCD400CAAE76 = {
 			isa = PBXGroup;
 			children = (
+				D6B3BEC4276BBA43009AC3FC /* Slides.pdf */,
 				D686D0D9271CFCD400CAAE76 /* SwiftZoomin8 */,
 				D686D0EA271CFCD600CAAE76 /* SwiftZoomin8Tests */,
 				D686D0F4271CFCD600CAAE76 /* SwiftZoomin8UITests */,
