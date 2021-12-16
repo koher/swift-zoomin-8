@@ -1,15 +1,17 @@
 import SwiftUI
 
+@MainActor
 struct UserView: View {
-    let id: User.ID
+    @StateObject private var state: UserViewState
     
-    @State var user: User?
-    @State var iconImage: UIImage?
+    init(id: User.ID) {
+        self._state = .init(wrappedValue: UserViewState(id: id))
+    }
     
     var body: some View {
         VStack(spacing: 16) { // レイアウト
             Group {
-                if let iconImage = self.iconImage {
+                if let iconImage = state.iconImage {
                     Image(uiImage: iconImage)
                         .resizable()
                 } else {
@@ -21,59 +23,18 @@ struct UserView: View {
             .overlay(
                 Circle().stroke(Color(uiColor: .systemGray3), lineWidth: 4)
             )
-
-            if let user = self.user {
+            
+            if let user = state.user {
                 Text(user.name)
             }
             
             Spacer()
         }
         .padding(16)
-        .onAppear { // user, iconImage の取得
-            // User の JSON の取得
-            let url: URL = .init(string: "https://koherent.org/fake-service/api/user?id=\(id)")!
-            downloadData(from: url) { result in
-                // メインスレッドで実行
-                DispatchQueue.main.async {
-                    do {
-                        let data = try result.get()
-                        
-                        // JSON のデコード
-                        let user: User = try JSONDecoder().decode(User.self, from: data)
-                        
-                        // View への反映
-                        self.user = user
-                        
-                        // アイコン画像の取得
-                        downloadData(from: user.iconURL) { iconResult in
-                            // メインスレッドで実行
-                            DispatchQueue.main.async {
-                                do {
-                                    let iconData = try iconResult.get()
-                                    
-                                    // Data を UIImage に変換
-                                    guard let iconImage: UIImage = .init(data: iconData) else {
-                                        // TODO: エラーハンドリング
-                                        print("Data collapsed.")
-                                        return
-                                    }
-                                    
-                                    // View への反映
-                                    self.iconImage = iconImage
-                                } catch {
-                                    // TODO: エラーハンドリング
-                                    print(error)
-                                    return
-                                }
-                            }
-                        }
-                    } catch {
-                        // TODO: エラーハンドリング
-                        print(error)
-                        return
-                    }
-                }
-            }
+        .task {
+            await state.loadUser()
         }
     }
 }
+
+extension UIImage: @unchecked Sendable {}

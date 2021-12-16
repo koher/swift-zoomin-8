@@ -18,6 +18,7 @@
 		D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E332722D0EE00B8D02D /* Download.swift */; };
 		D6AF3E362722D50A00B8D02D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E352722D50A00B8D02D /* User.swift */; };
 		D6AF3E382722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6AF3E372722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift */; };
+		D6B3BEC9276BCA07009AC3FC /* UserViewState.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B3BEC8276BCA07009AC3FC /* UserViewState.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		D6AF3E372722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyUIViewControllerRepresentable.swift; sourceTree = "<group>"; };
 		D6B3BEC4276BBA43009AC3FC /* Slides.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Slides.pdf; sourceTree = "<group>"; };
 		D6B3BEC5276BC196009AC3FC /* Video.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = Video.mp4; sourceTree = "<group>"; };
+		D6B3BEC8276BCA07009AC3FC /* UserViewState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserViewState.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				D6AF3E332722D0EE00B8D02D /* Download.swift */,
 				D6AF3E352722D50A00B8D02D /* User.swift */,
 				D603B9002767EB4F009DF81A /* UserView.swift */,
+				D6B3BEC8276BCA07009AC3FC /* UserViewState.swift */,
 				D686D0DE271CFCD500CAAE76 /* Assets.xcassets */,
 				D686D0E0271CFCD500CAAE76 /* Preview Content */,
 			);
@@ -274,6 +277,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6AF3E362722D50A00B8D02D /* User.swift in Sources */,
+				D6B3BEC9276BCA07009AC3FC /* UserViewState.swift in Sources */,
 				D6AF3E382722D7DB00B8D02D /* AnyUIViewControllerRepresentable.swift in Sources */,
 				D6AF3E342722D0EE00B8D02D /* Download.swift in Sources */,
 				D686D0DD271CFCD400CAAE76 /* ContentView.swift in Sources */,

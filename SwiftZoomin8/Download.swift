@@ -19,3 +19,11 @@ func downloadData(from url: URL, completion: @escaping (Result<Data, Error>) -> 
         completion(.success(data!))
     }.resume()
 }
+
+func downloadData(from url: URL) async throws -> Data {
+    try await withCheckedThrowingContinuation { continuation in
+        downloadData(from: url) { result in
+            continuation.resume(with: result)
+        }
+    }
+}
